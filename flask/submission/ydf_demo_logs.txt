@@ -1,0 +1,37 @@
+bad bad bad
+<response> sys.stdout
+Passed to model: ['bad', 'bad', 'bad']
+Prediction: [0, 0, 0]
+negative
+<response> sys.stdout
+fun fun fun
+<response> sys.stdout
+Passed to model: ['fun', 'fun', 'fun']
+Prediction: [1, 1, 1]
+positive
+<response> sys.stdout
+<response> sys.stdout
+stupid
+<response> sys.stdout
+Passed to model: ['stupid']
+Prediction: [0]
+negative
+<response> sys.stdout
+good boy
+<response> sys.stdout
+Passed to model: ['good', 'boy']
+Prediction: [1, 1]
+positive
+<response> sys.stdout
+bad boy
+<response> sys.stdout
+Passed to model: ['bad', 'boy']
+Prediction: [0, 1]
+negative
+<response> sys.stdout
+bad bad bad
+<response> sys.stdout
+Passed to model: ['bad', 'bad', 'bad']
+Prediction: [0, 0, 0]
+negative
+<response> sys.stdout
