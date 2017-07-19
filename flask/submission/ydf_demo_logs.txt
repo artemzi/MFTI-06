@@ -35,3 +35,39 @@ Passed to model: ['bad', 'bad', 'bad']
 Prediction: [0, 0, 0]
 negative
 <response> sys.stdout
+So stupid and bad thing here
+<response> sys.stdout
+Passed to model: ['So', 'stupid', 'and', 'bad', 'thing', 'here']
+Prediction: [1, 0, 1, 0, 0, 1]
+negative
+<response> sys.stdout
+So great and good thing here
+<response> sys.stdout
+Passed to model: ['So', 'great', 'and', 'good', 'thing', 'here']
+Prediction: [1, 1, 1, 1, 0, 1]
+positive
+<response> sys.stdout
+I'm so happy
+<response> sys.stdout
+Passed to model: ["I'm", 'so', 'happy']
+Prediction: [1, 1, 1]
+positive
+<response> sys.stdout
+I'm so disappointed
+<response> sys.stdout
+Passed to model: ["I'm", 'so', 'disappointed']
+Prediction: [1, 1, 0]
+positive
+<response> sys.stdout
+I'm so disappointed
+<response> sys.stdout
+Passed to model: ["I'm", 'so', 'disappointed']
+Prediction: [1, 1, 0]
+positive
+<response> sys.stdout
+I'm disappointed
+<response> sys.stdout
+Passed to model: ["I'm", 'disappointed']
+Prediction: [1, 0]
+negative
+<response> sys.stdout
