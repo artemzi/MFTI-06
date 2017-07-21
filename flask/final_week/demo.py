@@ -13,13 +13,13 @@ print("Classifier is ready")
 print(time.time() - start_time, "seconds")
 
 
-@app.route("/", methods=["POST", "GET"])
+@app.route("/", methods=["POST", "GET"]) # main route
 def index_page():
     return render_template('hello.html')
 
 
 @app.route('/predict')
-def predict(text=''):
+def predict(text=''): # route for ajax requests
     text = request.args.get('text')
     prediction_message = clf.get_prediction_message(text)
     print(prediction_message)
@@ -27,7 +27,7 @@ def predict(text=''):
 
 
 @app.route('/<path:path>')
-def hello(path=''):
+def hello(path=''): # other routes wil be redirected to home
     return redirect("/", code=302)
 
 
